@@ -1,43 +1,58 @@
-﻿
+
 using System;
-
-
-namespace ex16
+public class Exercise15 
 {
-    class Test
+    public static void Main()
     {
-        static void Main(string[] args)
+        string str1, str2;
+        int flg = 0;
+        int i = 0, l1, l2, yn = 0;
+
+        Console.Write("\n\nCompare two strings whether they are equal or not :\n");
+        Console.Write("------------------------------------------------------\n");
+        Console.Write("Input the 1st string : ");
+        str1 = Console.ReadLine();
+
+        Console.Write("Input the 2nd string : ");
+        str2 = Console.ReadLine();
+
+        l1 = str1.Length;
+        l2 = str2.Length;
+       
+        if (l1 == l2)
         {
-            string str1;
-            string str2;
+            for (i = 0; i < l1; i++)
+            {
+                if (str1[i] != str2[i])
+                {
+                    yn = 1;
+                    i = l1;
 
-            
-            Console.Write("Enter a string: ");
-            str1 = Console.ReadLine();
-            Console.Write("Enter another string: ");
-            str2 = Console.ReadLine();
-
-             
-            if (str1 == str2)
-                Console.WriteLine("\"{0}\" and \"{1}\" are equal", str1, str2);
+                }
+            }
+        }
+        
+        if (l1 == l2)
+            flg = 0;
+        else if (l1 > l2)
+            flg = 1;
+        else if (l1 < l2)
+            flg = -1;
+       
+        if (flg == 0)
+        {
+            if (yn == 0)
+                Console.Write("\nThe length of both strings are equal and \nalso, both strings are same.\n\n");
             else
-                Console.WriteLine("\"{0}\" and \"{1}\" are not equal", str1, str2);
-
-           
-            if ((str1 == str2) == true)
-                Console.WriteLine("\"{0}\" and \"{1}\" are equal", str1, str2);
-            else
-                Console.WriteLine("\"{0}\" and \"{1}\" are not equal", str1, str2);
-
-            
-            Console.WriteLine("By ignoring case...");
-            if (str1.ToUpper() == str2.ToUpper())
-                Console.WriteLine("\"{0}\" and \"{1}\" are equal", str1, str2);
-            else
-                Console.WriteLine("\"{0}\" and \"{1}\" are not equal", str1, str2);
-
-            
-            Console.ReadLine();
+                Console.Write("\nThe length of both strings are equal \nbut they are not same.\n\n");
+        }
+        else if (flg == -1)
+        {
+            Console.Write("\nThe length of the first string is smaller than second.\n\n");
+        }
+        else
+        {
+            Console.Write("\nThe length of the first string is greater than second.\n\n");
         }
     }
 }
