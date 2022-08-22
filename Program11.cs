@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _22th_hands_on
+namespace Ex11
 {
     internal class Problem11
     {
