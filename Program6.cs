@@ -13,7 +13,7 @@ namespace project6
             Purchase = 1,
             Sales = 2,
             Training = 3,
-            Accounts = 4
+            Accounts = 4,
 
         }
         public static void Main()
