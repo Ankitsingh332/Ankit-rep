@@ -17,16 +17,7 @@ namespace program2
             string fname = Console.ReadLine();
             fname = string.Concat(path, fname);
 
-            // Statemnet a
-            //File.Create(fname);
-            //File.WriteAllText(fname, "Hello, I am learning C# & .net");
-            //Console.WriteLine($"{fname} File Created...");
-
-            //Statement b and c
-            //fname = string.Concat(fname,"\\");
-            //File.Copy(fname, "copied.txt");
-            //File.Move(fname, "movedfile.txt");
-
+          
             // Checking file existance
             bool fileExists = File.Exists(fname);
             Console.WriteLine("File Exists=  " + fileExists);
