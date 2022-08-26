@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _25th_Hand_on
+namespace project3
 {
     internal class Problem3
     {
