@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HRLibrary;
-namespace _26th_Hands_on
+namespace 26th_Handson
 {
     internal class ArrayStudentObject
     {
