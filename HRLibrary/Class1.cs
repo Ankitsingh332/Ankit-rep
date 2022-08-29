@@ -51,7 +51,7 @@ namespace HRLibrary
             public string BranchName
             {
                 get { return _branchname; }
-                set { _branchname = value; }
+                set { _branchname = value; 
             }
 
 
