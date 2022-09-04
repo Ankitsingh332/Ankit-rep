@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _1st_sept
 {
-    internal class ShellsortDemo
+    internal class Shellsort
     {
         static void Main(string[] args)
         {
