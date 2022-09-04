@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using HRLibrary;
-namespace Hands_on
+namespace _2nd sep
 {
     internal class Program
     {
