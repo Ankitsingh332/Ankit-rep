@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _1sep
 {
-    internal class MergeSortDemo
+    internal class MergeSort
     {
         static void Main(string[] args)
         {
