@@ -8,31 +8,13 @@ using System.Threading.Tasks;
 using DelegatesHands_on;
 using DelegatesLibrary;
 
-namespace DelegatesHands_on
+namespace 7th_sep
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            // Problem 1
-            //GetStringLength();
-
-            // Problem2
-            //GreetingMsg();
-
-            // Prohblem 3
-            //MathsCombineOperation();
-
-            // Problem 4
-            //ShowingProduct();
-
-            // Problem 5
-            //EmployeeDetails();
-
-            // Problem 6
-            //Concatenation();
-
-            // Problem7
+           
             UpperCase();
 
             Console.ReadLine();
