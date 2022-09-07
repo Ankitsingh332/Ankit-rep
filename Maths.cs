@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DelegatesLibrary
+namespace 7th_sep
 {
     public delegate void MathsOpr(int i, int j);
     public class Maths
