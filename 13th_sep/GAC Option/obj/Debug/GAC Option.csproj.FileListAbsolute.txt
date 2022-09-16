@@ -1,0 +1,6 @@
+D:\mphasis\14th sep\13th_sep\GAC Option\bin\Debug\GAC Option.dll
+D:\mphasis\14th sep\13th_sep\GAC Option\bin\Debug\GAC Option.pdb
+D:\mphasis\14th sep\13th_sep\GAC Option\obj\Debug\GAC Option.csproj.AssemblyReference.cache
+D:\mphasis\14th sep\13th_sep\GAC Option\obj\Debug\GAC Option.csproj.CoreCompileInputs.cache
+D:\mphasis\14th sep\13th_sep\GAC Option\obj\Debug\GAC Option.dll
+D:\mphasis\14th sep\13th_sep\GAC Option\obj\Debug\GAC Option.pdb

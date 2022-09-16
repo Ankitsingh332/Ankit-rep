@@ -1,0 +1,5 @@
+D:\mphasis\14th sep\13th_sep\AdminClass\bin\Debug\AdminClass.dll
+D:\mphasis\14th sep\13th_sep\AdminClass\bin\Debug\AdminClass.pdb
+D:\mphasis\14th sep\13th_sep\AdminClass\obj\Debug\AdminClass.csproj.CoreCompileInputs.cache
+D:\mphasis\14th sep\13th_sep\AdminClass\obj\Debug\AdminClass.dll
+D:\mphasis\14th sep\13th_sep\AdminClass\obj\Debug\AdminClass.pdb

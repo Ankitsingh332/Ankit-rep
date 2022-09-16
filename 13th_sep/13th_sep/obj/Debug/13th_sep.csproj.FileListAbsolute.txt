@@ -1,0 +1,14 @@
+D:\mphasis\14th sep\13th_sep\13th_sep\obj\Debug\13th_sep.csproj.AssemblyReference.cache
+D:\mphasis\14th sep\13th_sep\13th_sep\obj\Debug\13th_sep.csproj.CoreCompileInputs.cache
+D:\mphasis\14th sep\13th_sep\13th_sep\bin\Debug\13th_sep.exe.config
+D:\mphasis\14th sep\13th_sep\13th_sep\bin\Debug\13th_sep.exe
+D:\mphasis\14th sep\13th_sep\13th_sep\bin\Debug\13th_sep.pdb
+D:\mphasis\14th sep\13th_sep\13th_sep\bin\Debug\AdminClass.dll
+D:\mphasis\14th sep\13th_sep\13th_sep\bin\Debug\GAC Option.dll
+D:\mphasis\14th sep\13th_sep\13th_sep\bin\Debug\UserClass.dll
+D:\mphasis\14th sep\13th_sep\13th_sep\bin\Debug\AdminClass.pdb
+D:\mphasis\14th sep\13th_sep\13th_sep\bin\Debug\GAC Option.pdb
+D:\mphasis\14th sep\13th_sep\13th_sep\bin\Debug\UserClass.pdb
+D:\mphasis\14th sep\13th_sep\13th_sep\obj\Debug\13th_sep.csproj.CopyComplete
+D:\mphasis\14th sep\13th_sep\13th_sep\obj\Debug\13th_sep.exe
+D:\mphasis\14th sep\13th_sep\13th_sep\obj\Debug\13th_sep.pdb

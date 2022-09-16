@@ -1,0 +1,6 @@
+D:\mphasis\14th sep\13th_sep\UserClass\bin\Debug\UserClass.dll
+D:\mphasis\14th sep\13th_sep\UserClass\bin\Debug\UserClass.pdb
+D:\mphasis\14th sep\13th_sep\UserClass\obj\Debug\UserClass.csproj.AssemblyReference.cache
+D:\mphasis\14th sep\13th_sep\UserClass\obj\Debug\UserClass.csproj.CoreCompileInputs.cache
+D:\mphasis\14th sep\13th_sep\UserClass\obj\Debug\UserClass.dll
+D:\mphasis\14th sep\13th_sep\UserClass\obj\Debug\UserClass.pdb
