@@ -194,7 +194,7 @@ namespace Sep14
         }
         public bool validate()
         {
-            if (Id == 104 && Password == "12345678")
+            if (Id == 7903128160 && Password == "12345678")
             {
                 login = "true";
                 return true;
