@@ -1,0 +1,2 @@
+D:\mphasis\14th sep\14th_Sep\14th_Sep\obj\Debug\14th_Sep.csproj.AssemblyReference.cache
+D:\mphasis\14th sep\14th_Sep\14th_Sep\obj\Debug\14th_Sep.csproj.CoreCompileInputs.cache
