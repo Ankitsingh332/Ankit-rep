@@ -12,7 +12,7 @@ create table Book(Book_No numeric(6) primary key, Book_Name varchar(30), Author 
 Cost numeric(7,2), Category Char(10))
 
 create table Issue(Lib_Issue_Id	numeric(10) primary key, Book_No numeric(6) foreign key references Book(Book_No),
-Member_Id numeric(5) foreign key references Member(Member_Id), Issue_Date Date, Return_date Date)
+Member_Id numeric(5) foreign key references Member(Member_Id), Issue_Date Date, Return_dateÂ Date)
 
 --2)View the structure of the tables.
 sp_help Member
@@ -25,7 +25,7 @@ add Comment varchar(100)
 
 --4)Modify the table Member increase the width of the member name to 30 characters.
 alter table Member 
-alter column Member_Name Char(30)
+alter column Member_NameÂ Char(30)
 
 --5)Add a column Reference Char(30) to Issue table.
 alter table Issue
@@ -40,18 +40,18 @@ exec sp_rename 'Issue',  'Lib_Issue';
 
 --8)Insert following data in table Member
 
-insert into Member values(1,'Durgesh Singh','2005-12-10',5,50)
-insert into Member values(2,'Archit Saxena','2000-01-07',9,100)
-insert into Member values(3,'Harhit Gupta','2005-01-14',7,101)
-insert into Member values(4,'Divya Pandey','2000-04-17',3,108)
-insert into Member values(5,'Chandra Chur Deval','2000-03-13',2,500)
-insert into Member values(6,'Richa Sarma','2000-04-19',5,50)
-insert into Member values(7,'Garima Sen',CURRENT_TIMESTAMP,3,null)
+insert into Member values(1,'Ankit Singh','2005-12-10',5,50)
+insert into Member values(2,'Amit singh','2000-01-07',9,100)
+insert into Member values(3,'Rohit Gupta','2005-01-14',7,101)
+insert into Member values(4,'Rupesh Pandey','2000-04-17',3,108)
+insert into Member values(5,'Anu Singh','2000-03-13',2,500)
+insert into Member values(6,'vini ','2000-04-19',5,50)
+insert into Member values(7,'Axis Sen',CURRENT_TIMESTAMP,3,null)
 
 --9) Modify the column Member Decrease the width of the member   
 select * from member
 alter table Member 
-alter column Member_Name Char(20)
+alter column Member_NameÂ Char(20)
 
 --Commands completed successfully.
 
@@ -71,7 +71,7 @@ select * into Member102 from Member where 1=2 --//without data
 
 --12) Insert data in Book table as follows
 insert into Book values(101,'Let us C',	'Denis Ritchie', 450 , 'System')
-insert into Book values(102, 'Oracle – Complete Ref', 'Loni', 550	,'Database')
+insert into Book values(102, 'Oracle â€“ Complete Ref', 'Loni', 550	,'Database')
 insert into Book values(103, 'Mastering SQL', 'Loni', 250, 'Database')
 insert into Book values(104, 'PL SQL-Ref', 'Scott Urman', 750, 'Database')
 
@@ -194,7 +194,7 @@ select upper(Author) as Author_In_Upper from Book order by Book_Name desc
 select Book_No,('is written by') as '--------------------',Book_Name from Book
 
 --Task 14
---select * from Issue where Member_Id = 101 and Issue_Date = ‘Monday, July, 10, 2006' and Return_Date = ‘Monday, July, 10, 2006' 
+--select * from Issue where Member_Id = 101 and Issue_Date = â€˜Monday, July, 10, 2006' and Return_Date = â€˜Monday, July, 10, 2006' 
 
 select * from Book where Category like '%D'
 
@@ -212,6 +212,6 @@ select avg(Cost) as Average_Price_Book from Book
 
 select * from Member
 select * from Issue
-select * from Book
+selectÂ *Â fromÂ Book
 
 
