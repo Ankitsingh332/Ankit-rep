@@ -41,10 +41,10 @@ namespace WebAPI_Intro.Controllers
 
 
                 EmployeeID = 1,
-                LastName = "Davolio",
-                FirstName = "Nancy",
+                LastName = "Singh",
+                FirstName = "Amit",
                 Title = "Sales Representative",
-                BirthDate = new DateTime(1948, 08, 12)
+                BirthDate = new DateTime(1988, 08, 15)
             };
         }
 
